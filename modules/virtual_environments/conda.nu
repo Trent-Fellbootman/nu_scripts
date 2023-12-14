@@ -29,6 +29,7 @@ export def --env activate [
     }
 
     let virtual_prompt = $'[($env_name)] '
+    let virtual_prompt = ''
 
     let new_env = ({
         CONDA_DEFAULT_ENV: $env_name
